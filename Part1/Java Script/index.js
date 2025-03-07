@@ -22,3 +22,22 @@ console.log(arr)
 arr.forEach(value => {
     console.log(value)  // numbers 1, -1, 4, 6 are printed, each on its own line
 })  
+
+console.log(arr.length)
+
+const arr2 = arr.concat([9,3,1])
+console.log(arr2)
+
+const newarr = arr.map(value => value*2)
+console.log(newarr)
+
+const num = [1,2,3,4,5]
+const [one,two,...rest] = num  /// here we can take rest of the values using expanding operator '...'
+
+
+console.log(one,two)
+console.log(rest)
+
+
+// objects
+
